@@ -370,7 +370,6 @@ template {
 }
 
 .button--primary {
-  padding: 19px 29px;
   background-color: #E3B873;
   color: #fff;
   -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -534,6 +533,7 @@ body {
 }
 
 .hero__button {
+  padding: 19px 29px;
   margin-right: 1.3rem;
 }
 
