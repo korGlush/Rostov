@@ -561,7 +561,7 @@ body {
   min-width: 17.6rem;
   min-height: 6.92rem;
   font-family: 'Yeseva One', cursive;
-  font-size: 2rem;
+  font-size: 0.85rem;
   background-color: #131313;
   text-transform: uppercase;
   text-decoration: none;
@@ -575,7 +575,7 @@ body {
   height: 30px;
   border: 2px solid #E3B873;
   border-radius: 50%;
-  margin-left: 12px;
+  margin-left: 1.2rem;
 }
 
 .instagram {
