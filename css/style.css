@@ -714,11 +714,11 @@ img {
   margin-bottom: 2.857rem;
 }
 
-.card {
+.design .card {
   position: relative;
 }
 
-.card::before {
+.design .card::before {
   content: '';
   position: absolute;
   width: 100%;
