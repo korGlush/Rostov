@@ -15,6 +15,15 @@
         width: 100%
         height: 100%
         background-color: rgba($dark, 0.7)
+    &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    height: 3.46rem
+    background-color: $dark
     &__content
         position: relative
         max-width: 47.85rem
@@ -26,7 +35,7 @@
         margin: 0
         margin-bottom: 3.6rem
     &__btn
-        margin-right: 17px
+        margin-right: 18px
         padding: 18px 28px
     &__btn2
         padding: 17px 45px
@@ -39,6 +48,7 @@
     &__scroll-down
         position: absolute
         display: flex
+        z-index: 3
         justify-content: center
         align-items: center
         left: 0
@@ -61,6 +71,7 @@
             border: 2px solid $primary
             border-radius: 50%
             margin-left: 17px
+        
 .title
     margin: 0
     font-family: 'Yeseva One', cursive
@@ -70,6 +81,7 @@
     margin-bottom: 1rem
     &-primary
         color: $primary
+
 .insta
     display: flex
     justify-content: center
@@ -79,7 +91,7 @@
         display: flex
         align-items: center
         text-transform: uppercase
-        text-decoration: none 
+        text-decoration: none
         color: $primary
         transform: rotate(90deg)
         line-height: 0.8
@@ -91,4 +103,3 @@
             background-color: $primary
             margin-left: 8px
         
-    
